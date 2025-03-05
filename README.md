@@ -1,5 +1,5 @@
-[![](https://github.com/qwc-services/qwc-document-service/workflows/build/badge.svg)](https://github.com/qwc-services/qwc-document-service/actions)
-[![docker](https://img.shields.io/docker/v/sourcepole/qwc-document-service?label=Docker%20image&sort=semver)](https://hub.docker.com/r/sourcepole/qwc-document-service)
+[![](https://github.com/qwc-services/sogis-document-service/workflows/build/badge.svg)](https://github.com/qwc-services/sogis-document-service/actions)
+[![docker](https://img.shields.io/docker/v/sourcepole/sogis-document-service?label=Docker%20image&sort=semver)](https://hub.docker.com/r/sourcepole/sogis-document-service)
 
 Document service
 ================
@@ -21,13 +21,13 @@ e.g. `$CONFIG_PATH/default/*.json`. The default tenant name is `default`.
 
 ### JSON config
 
-* [JSON schema](schemas/qwc-document-service.json)
+* [JSON schema](schemas/sogis-document-service.json)
 * File location: `$CONFIG_PATH/<tenant>/documentConfig.json`
 
 Example:
 ```json
 {
-  "$schema": "https://raw.githubusercontent.com/qwc-services/qwc-document-service/master/schemas/qwc-document-service.json",
+  "$schema": "https://raw.githubusercontent.com/qwc-services/sogis-document-service/master/schemas/sogis-document-service.json",
   "service": "document",
   "config": {
     "jasper_service_url": "http://localhost:8002/reports",
@@ -88,7 +88,7 @@ Docker usage
 
 To run this docker image you will need a running jasper reporting service.
 
-The following steps explain how to download a jasper reporting service docker image and how to run the `qwc-document-service` with `docker-compose`.
+The following steps explain how to download a jasper reporting service docker image and how to run the `sogis-document-service` with `docker-compose`.
 
 **Step 1: Clone qwc-docker**
 
@@ -101,7 +101,7 @@ The following steps explain how to download a jasper reporting service docker im
 
 **Step 3: Start docker containers**
 
-    docker-compose up qwc-document-service
+    docker-compose up sogis-document-service
 
 For more information please visit: https://github.com/qwc-services/qwc-docker
 
