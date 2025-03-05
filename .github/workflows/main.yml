@@ -14,13 +14,14 @@ jobs:
         with:
           repository: qwc-services/qwc-docker
           path: qwc-docker
+          ref: 2e677220eefa46b86d1a79404e834efe0832e4af
 
       - name: Start demo database
         run: |
           cd qwc-docker
           sed -i 's|jasper-reporting-service:8080|localhost:8002|' volumes/config/default/documentConfig.json
           sed -i 's|\"document_templates\": \[\]|\"document_templates\": \[\"demo\"\]|g' volumes/config/default/permissions.json
-          docker run -p 127.0.0.1:8002:8080 -d -v $PWD/volumes/jasper-reports/config:/srv/jasper-reporting-service/config:ro -v $PWD/volumes/jasper-reports/demo:/srv/jasper-reporting-service/demo:ro sourcepole/jasper-reporting-service:v2023.05.12
+          docker run -p 127.0.0.1:8002:8080 -d -v $PWD/volumes/jasper-reports/config:/srv/jasper-reporting-service/config:ro -v $PWD/volumes/jasper-reports/demo:/srv/jasper-reporting-service/demo:ro sourcepole/jasper-reporting-service:latest-lts
 
       - name: Setting up python 3.12
         uses: actions/setup-python@v5

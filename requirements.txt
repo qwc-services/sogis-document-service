@@ -76,9 +76,9 @@ colorama==0.4.6 ; sys_platform == 'win32' \
 flask==3.0.3 \
     --hash=sha256:34e815dfaa43340d1d15a5c3a02b8476004037eb4840b34910c6e21679d288f3 \
     --hash=sha256:ceb27b0af3823ea2737928a4d99d125a06175b8512c445cbd9a9ce200ef76842
-flask-jwt-extended==4.6.0 \
-    --hash=sha256:63a28fc9731bcc6c4b8815b6f954b5904caa534fc2ae9b93b1d3ef12930dca95 \
-    --hash=sha256:9215d05a9413d3855764bcd67035e75819d23af2fafb6b55197eb5a3313fdfb2
+flask-jwt-extended==4.7.1 \
+    --hash=sha256:52f35bf0985354d7fb7b876e2eb0e0b141aaff865a22ff6cc33d9a18aa987978 \
+    --hash=sha256:8085d6757505b6f3291a2638c84d207e8f0ad0de662d1f46aa2f77e658a0c976
 flask-restx==1.3.0 \
     --hash=sha256:4f3d3fa7b6191fcc715b18c201a12cd875176f92ba4acc61626ccfd571ee1728 \
     --hash=sha256:636c56c3fb3f2c1df979e748019f084a938c4da2035a3e535a4673e4fc177691
@@ -158,15 +158,15 @@ pyjwt==2.10.1 \
 pytz==2025.1 \
     --hash=sha256:89dd22dca55b46eac6eda23b2d72721bf1bdfef212645d81513ef5d03038de57 \
     --hash=sha256:c2db42be2a2518b28e65f9207c4d05e6ff547d1efa4086469ef855e4ab70178e
-qwc-services-core==1.3.35 \
-    --hash=sha256:7c2330dfcbd58fb965ec6a8a369e715ec4a809123781ceac4a77aaa7abb8a991 \
-    --hash=sha256:8001c648f6cffa5952b620adb4418a4795469fc8e21c8bc7accba7b09a82a1cc
+qwc-services-core==1.4.3 \
+    --hash=sha256:9a634faf0441432057cd5a02bdf15ff885c790c3a7423a1d4081d0a02e291222 \
+    --hash=sha256:ba415b71a9445f85f4a4ce070f28ca760ee4dd4053ca8157f3efb76bd8f854aa
 referencing==0.36.2 \
     --hash=sha256:df2e89862cd09deabbdba16944cc3f10feb6b3e6f18e902f7cc25609a34775aa \
     --hash=sha256:e8699adbbf8b5c7de96d8ffa0eb5c158b3beafce084968e2ea8bb08c6794dcd0
-requests==2.31.0 \
-    --hash=sha256:58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f \
-    --hash=sha256:942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1
+requests==2.32.3 \
+    --hash=sha256:55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760 \
+    --hash=sha256:70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6
 rpds-py==0.23.1 \
     --hash=sha256:0f3288930b947cbebe767f84cf618d2cbe0b13be476e749da0e6a009f986248c \
     --hash=sha256:0fced9fd4a07a1ded1bac7e961ddd9753dd5d8b755ba8e05acba54a21f5f1522 \
